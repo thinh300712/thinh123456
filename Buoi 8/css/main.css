@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container
+{
+	width: 1280px;
+	height: 5000px;
+	background-color: antiquewhite;
+	margin: 0 auto;
+}
+
+.header
+{
+	width: 1280px;
+	height: 720px;
+	background-color: blue;
+}
+
+.menu
+{
+	width: 1280px;
+	height: 120px;
+	background-color: aqua;
+}
+
+.slider
+{
+	width: 1280px;
+	height: 610px;
+	background-color: blueviolet;
+}
+
+.content
+{
+	width: 1280px;
+	height: 850px;
+	background-color: white;
+}
+
+.slider2
+{
+	width: 1280px;
+	height: 20%;
+	background-color: red;
+}
+
+.text2
+{
+  width: 1280px;
+  height: 80%;
+  background-color: coral;
+}
+
+.logo
+{
+  width: 20%;
+  height: 100%;
+  background-color: yellowgreen;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+}
+
+.textmenu
+{
+  width: 1024px;
+  height: 100%;
+  float: right;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+}
+
+ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li
+{
+	padding: 50px 20px;
+	float: left;
+	position: relative;
+	font-family: Nunito;
+}
+
+@font-face
+{
+	font-family: Nunito;
+	src: url("../font/Nunito-Bold_0.ttf")
+}
+
+ul li a
+{
+	color: #171717;
+	text-decoration: none;
+	 
+}
+
+ul li:hover
+{
+	background-color: skyblue;
+}
+
+.text2_1
+{
+	width: 50%;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+
+.text2_2
+{
+	width: 50%;
+	height: 100%;
+	background-color: rosybrown;
+	float: right;
+}
+
+.contentC
+{
+	width: 100%;
+	height: 500px;
+	background-color: crimson;
+}
+
+.contentC_1
+{
+	width: 24.8%;
+	height: 50%;
+	background-color: darkorange;
+	border: 1px #FFFFFF solid;
+	float: left;
+}
+
+.contentD
+{
+	width: 100%;
+	height: 800px;
+	background-color: darkseagreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contentD_1
+{
+	width: 25%;
+	height: 80%;
+	background-color: wheat;
+	border: 1px #FFFFFF solid;
+	float: left;
+	margin: 20px;
+}
+
+
